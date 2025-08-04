@@ -101,7 +101,7 @@ nav .nav-link {
 }
 
 .emilly h1 {
-    font-size: clamp(4rem, 15vw, 150px);
+    font-size: clamp(4rem, 10vw, 150px);
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
     line-height: 1;
     margin: 0.5rem 0;
