@@ -121,16 +121,23 @@ nav .nav-link {
 
 .button-call img {
     max-width: 200px;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0 0 8px #8b00fd5d) blur(0.2px);
 }
 
 .button-call img:hover {
+
     transform: scale(1.05);
+    animation-play-state: paused;
 }
 
-.icons_tools:hover {
+.icons img:hover {
     transform: scale(1.05);
 
+}
+
+.Social_midia a img:hover {
+    transform: scale(1.05);
 }
 
 .about {
@@ -195,6 +202,7 @@ nav .nav-link {
 .project-text {
     color: #260533d3;
     font-family: 'inter Italic';
+    text-decoration: none;
 
 }
 
@@ -218,6 +226,10 @@ nav .nav-link {
 .card {
     background-color: rgba(247, 247, 247, 0.116);
     transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card a {
+    text-decoration: none;
 }
 
 .card:hover {
@@ -256,6 +268,7 @@ nav .nav-link {
 
 .form-control::placeholder {
     color: rgba(255, 255, 255, 0.6);
+
 }
 
 .form-control:focus {
@@ -263,6 +276,11 @@ nav .nav-link {
     border-color: rgba(255, 255, 255, 0.4);
     color: #fff;
     box-shadow: none;
+}
+
+.text-area textarea{
+    resize: none;
+    height: 180px
 }
 
 .btn-light {
@@ -307,14 +325,20 @@ nav .nav-link {
     transform: scale(1.1);
 }
 
-@keyframes flutuar {
+
+.animate {
+    animation: float 3s ease-in-out infinite;
+
+}
+
+@keyframes float {
     0% {
         transform: translateY(0);
         opacity: 1;
     }
 
     50% {
-        transform: translateY(10px);
+        transform: translateY(15px);
         opacity: 0.8;
     }
 
@@ -397,7 +421,7 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    display: none; 
+    display: none;
     justify-content: center;
     align-items: center;
     z-index: 999;
@@ -412,4 +436,3 @@ body {
 #seta:hover {
     background-color: #fff9f9;
 }
-
