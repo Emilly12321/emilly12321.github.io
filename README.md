@@ -20,7 +20,7 @@ Aqui apresento meus projetos, habilidades, trajetória e informações para cont
 - `assets/css/` – Arquivos de estilo customizado.
 - `assets/js/main.js` – Lógica de interação, como scroll suave e botão “voltar ao topo”.
 - `assets/img/` – Imagens utilizadas no layout.
-- `assets/icons/` – Ícones utilizadas no layout.
+- `assets/icons/` – Ícones utilizados no layout.
 - `assets/fonts/` – Fontes utilizadas no layout.
 
 ## ✨ Funcionalidades
