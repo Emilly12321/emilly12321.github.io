@@ -1,11 +1,11 @@
 Este é o meu portfólio pessoal desenvolvido com HTML, CSS e JavaScript, publicado via **GitHub Pages**.  
 Aqui apresento meus projetos, habilidades, trajetória e informações para contato profissional.
 
-## 🚀 Acesso ao site
+##  Acesso ao site
 
-👉 [Clique aqui para acessar o portfólio](https://emilly12321.github.io)
+ [Clique aqui para acessar o portfólio](https://emilly12321.github.io)
 
-## 📌 Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - HTML5
 - CSS3
@@ -14,7 +14,7 @@ Aqui apresento meus projetos, habilidades, trajetória e informações para cont
 - Git e GitHub
 - GitHub Pages (deploy)
 
-## 🖥️ Estrutura do projeto
+##  Estrutura do projeto
 
 - `index.html` – Página principal com navegação seções como Home, Sobre, Habilidades e Contato.
 - `assets/css/` – Arquivos de estilo customizado.
@@ -23,7 +23,7 @@ Aqui apresento meus projetos, habilidades, trajetória e informações para cont
 - `assets/icons/` – Ícones utilizados no layout.
 - `assets/fonts/` – Fontes utilizadas no layout.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - Design responsivo
 - Menu com rolagem suave
@@ -31,11 +31,11 @@ Aqui apresento meus projetos, habilidades, trajetória e informações para cont
 - Seções separadas com conteúdo organizado
 - Link para redes sociais
 
-## 📷 Preview
+## Preview
 
 ![preview do site](assets/img/Home.png)
 
-## 📁 Como clonar e rodar localmente
+##  Como clonar e rodar localmente
 
 ```bash
 git clone https://github.com/emilly12321/emilly12321.github.io.git
